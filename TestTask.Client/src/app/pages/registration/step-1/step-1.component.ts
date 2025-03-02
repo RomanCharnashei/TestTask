@@ -19,7 +19,7 @@ export class Step1Component {
   private readonly authService = inject(AuthService);
 
   form = new FormGroup<RegistrationForm>({
-    login: new FormControl('', { nonNullable: true, validators: [Validators.required] }),
+    login: new FormControl('', { nonNullable: true, validators: [Validators.required, Validators.email] }),
     password: new FormControl('', { nonNullable: true, validators: [Validators.required] }),
     confirmPassword: new FormControl('', { nonNullable: true, validators: [Validators.required] }),
     agree: new FormControl(false, { nonNullable: true, validators: [Validators.required] })

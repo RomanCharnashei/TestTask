@@ -10,6 +10,9 @@
                 @if (form.controls.login.hasError('required')) {
                     <mat-error>This field is required</mat-error>
                 }
+                @if (form.controls.login.hasError('email')) {
+                    <mat-error>The value has to be mail</mat-error>
+                }
             </mat-form-field>
             <mat-form-field appearance="outline" floatLabel="always">
                 <mat-label>Password</mat-label>
