@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "LaunchThisPls",
+    "Projects": [
+      {
+        "Path": "TestTask.Proxy\\TestTask.Proxy.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TestTask.Api\\TestTask.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
