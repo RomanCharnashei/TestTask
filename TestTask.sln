@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "TestTask.Client", "TestTask.Client\TestTask.Client.esproj", "{61AB5867-03A7-09BE-F975-23C2A4485413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.Proxy", "TestTask.Proxy\TestTask.Proxy.csproj", "{CAF6D4D1-E906-4F4B-B9EE-F4102B91237C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.Api", "TestTask.Api\TestTask.Api.csproj", "{3F255B04-7BD8-49D1-BAC5-EFD9F5F1FF72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61AB5867-03A7-09BE-F975-23C2A4485413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AB5867-03A7-09BE-F975-23C2A4485413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AB5867-03A7-09BE-F975-23C2A4485413}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{61AB5867-03A7-09BE-F975-23C2A4485413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AB5867-03A7-09BE-F975-23C2A4485413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61AB5867-03A7-09BE-F975-23C2A4485413}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CAF6D4D1-E906-4F4B-B9EE-F4102B91237C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF6D4D1-E906-4F4B-B9EE-F4102B91237C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF6D4D1-E906-4F4B-B9EE-F4102B91237C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF6D4D1-E906-4F4B-B9EE-F4102B91237C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F255B04-7BD8-49D1-BAC5-EFD9F5F1FF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F255B04-7BD8-49D1-BAC5-EFD9F5F1FF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F255B04-7BD8-49D1-BAC5-EFD9F5F1FF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F255B04-7BD8-49D1-BAC5-EFD9F5F1FF72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {054DD961-1CF4-4181-A008-1DD853E03942}
+	EndGlobalSection
+EndGlobal

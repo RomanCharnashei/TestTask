@@ -1,0 +1,31 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:8080"
+  },
+  "Routes": [
+    {
+      "Priority": 1,
+      "UpstreamPathTemplate": "/api/{rest}",
+      "DownstreamPathTemplate": "/api/{rest}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 4200
+        }
+      ]
+    },
+    {
+      "Priority": 0,
+      "UpstreamPathTemplate": "/{all}",
+      "DownstreamPathTemplate": "/{all}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 4200
+        }
+      ]
+    }
+  ]
+}

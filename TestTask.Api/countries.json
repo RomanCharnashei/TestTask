@@ -1,0 +1,412 @@
+[
+  {
+    "code2": "PL",
+    "code3": "POL",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "states": [
+      {
+        "code": "DS",
+        "name": "Dolnośląskie",
+        "subdivision": null
+      },
+      {
+        "code": "KP",
+        "name": "Kujawsko-pomorskie",
+        "subdivision": null
+      },
+      {
+        "code": "LU",
+        "name": "Lubelskie",
+        "subdivision": null
+      },
+      {
+        "code": "LB",
+        "name": "Lubuskie",
+        "subdivision": null
+      },
+      {
+        "code": "MZ",
+        "name": "Mazowieckie",
+        "subdivision": null
+      },
+      {
+        "code": "MA",
+        "name": "Małopolskie",
+        "subdivision": null
+      },
+      {
+        "code": "OP",
+        "name": "Opolskie",
+        "subdivision": null
+      },
+      {
+        "code": "PK",
+        "name": "Podkarpackie",
+        "subdivision": null
+      },
+      {
+        "code": "PD",
+        "name": "Podlaskie",
+        "subdivision": null
+      },
+      {
+        "code": "PM",
+        "name": "Pomorskie",
+        "subdivision": null
+      },
+      {
+        "code": "WN",
+        "name": "Warmińsko-mazurskie",
+        "subdivision": null
+      },
+      {
+        "code": "WP",
+        "name": "Wielkopolskie",
+        "subdivision": null
+      },
+      {
+        "code": "ZP",
+        "name": "Zachodniopomorskie",
+        "subdivision": null
+      },
+      {
+        "code": "LD",
+        "name": "Łódzkie",
+        "subdivision": null
+      },
+      {
+        "code": "SL",
+        "name": "Śląskie",
+        "subdivision": null
+      },
+      {
+        "code": "SK",
+        "name": "Świętokrzyskie",
+        "subdivision": null
+      }
+    ]
+  },
+  {
+    "code2": "PT",
+    "code3": "PRT",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "states": [
+      {
+        "code": "01",
+        "name": "Aveiro",
+        "subdivision": null
+      },
+      {
+        "code": "02",
+        "name": "Beja",
+        "subdivision": null
+      },
+      {
+        "code": "03",
+        "name": "Braga",
+        "subdivision": null
+      },
+      {
+        "code": "04",
+        "name": "Bragança",
+        "subdivision": null
+      },
+      {
+        "code": "05",
+        "name": "Castelo Branco",
+        "subdivision": null
+      },
+      {
+        "code": "06",
+        "name": "Coimbra",
+        "subdivision": null
+      },
+      {
+        "code": "08",
+        "name": "Faro",
+        "subdivision": null
+      },
+      {
+        "code": "09",
+        "name": "Guarda",
+        "subdivision": null
+      },
+      {
+        "code": "10",
+        "name": "Leiria",
+        "subdivision": null
+      },
+      {
+        "code": "11",
+        "name": "Lisboa",
+        "subdivision": null
+      },
+      {
+        "code": "12",
+        "name": "Portalegre",
+        "subdivision": null
+      },
+      {
+        "code": "13",
+        "name": "Porto",
+        "subdivision": null
+      },
+      {
+        "code": "30",
+        "name": "Região Autónoma da Madeira",
+        "subdivision": null
+      },
+      {
+        "code": "20",
+        "name": "Região Autónoma dos Açores",
+        "subdivision": null
+      },
+      {
+        "code": "14",
+        "name": "Santarém",
+        "subdivision": null
+      },
+      {
+        "code": "15",
+        "name": "Setúbal",
+        "subdivision": null
+      },
+      {
+        "code": "16",
+        "name": "Viana do Castelo",
+        "subdivision": null
+      },
+      {
+        "code": "17",
+        "name": "Vila Real",
+        "subdivision": null
+      },
+      {
+        "code": "18",
+        "name": "Viseu",
+        "subdivision": null
+      },
+      {
+        "code": "07",
+        "name": "Évora",
+        "subdivision": null
+      }
+    ]
+  },
+  {
+    "code2": "DE",
+    "code3": "DEU",
+    "name": "Germany",
+    "capital": "Berlin",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "states": [
+      {
+        "code": "BW",
+        "name": "Baden-Württemberg",
+        "subdivision": null
+      },
+      {
+        "code": "BY",
+        "name": "Bayern",
+        "subdivision": null
+      },
+      {
+        "code": "BE",
+        "name": "Berlin",
+        "subdivision": null
+      },
+      {
+        "code": "BB",
+        "name": "Brandenburg",
+        "subdivision": null
+      },
+      {
+        "code": "HB",
+        "name": "Bremen",
+        "subdivision": null
+      },
+      {
+        "code": "HH",
+        "name": "Hamburg",
+        "subdivision": null
+      },
+      {
+        "code": "HE",
+        "name": "Hessen",
+        "subdivision": null
+      },
+      {
+        "code": "MV",
+        "name": "Mecklenburg-Vorpommern",
+        "subdivision": null
+      },
+      {
+        "code": "NI",
+        "name": "Niedersachsen",
+        "subdivision": null
+      },
+      {
+        "code": "NW",
+        "name": "Nordrhein-Westfalen",
+        "subdivision": null
+      },
+      {
+        "code": "RP",
+        "name": "Rheinland-Pfalz",
+        "subdivision": null
+      },
+      {
+        "code": "SL",
+        "name": "Saarland",
+        "subdivision": null
+      },
+      {
+        "code": "SN",
+        "name": "Sachsen",
+        "subdivision": null
+      },
+      {
+        "code": "ST",
+        "name": "Sachsen-Anhalt",
+        "subdivision": null
+      },
+      {
+        "code": "SH",
+        "name": "Schleswig-Holstein",
+        "subdivision": null
+      },
+      {
+        "code": "TH",
+        "name": "Thüringen",
+        "subdivision": null
+      }
+    ]
+  },
+  {
+    "code2": "FR",
+    "code3": "FRA",
+    "name": "France",
+    "capital": "Paris",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "states": [
+      {
+        "code": "A",
+        "name": "Alsace",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "B",
+        "name": "Aquitaine",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "C",
+        "name": "Auvergne",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "E",
+        "name": "Brittany",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "D",
+        "name": "Burgundy",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "F",
+        "name": "Centre-Val de Loire",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "G",
+        "name": "Champagne-Ardenne",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "H",
+        "name": "Corsica",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "I",
+        "name": "Franche-Comté",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "K",
+        "name": "Languedoc-Roussillon",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "L",
+        "name": "Limousin",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "M",
+        "name": "Lorraine",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "P",
+        "name": "Lower Normandy",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "N",
+        "name": "Midi-Pyrénées",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "O",
+        "name": "Nord-Pas-de-Calais",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "R",
+        "name": "Pays de la Loire",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "S",
+        "name": "Picardy",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "T",
+        "name": "Poitou-Charentes",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "U",
+        "name": "Provence-Alpes-Côte d'Azur",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "V",
+        "name": "Rhône-Alpes",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "Q",
+        "name": "Upper Normandy",
+        "subdivision": "Metropolitan region"
+      },
+      {
+        "code": "J",
+        "name": "Île-de-France",
+        "subdivision": "Metropolitan region"
+      }
+    ]
+  }
+]

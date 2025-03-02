@@ -1,0 +1,9 @@
+@if ((userInfo$ | async)?.accessLevel === 'none') {
+    <app-step-1></app-step-1>
+}
+@else if ((userInfo$ | async)?.accessLevel === 'medium') {
+    <app-step-2></app-step-2>
+}
+@else {
+    <p>Loading...</p>
+}

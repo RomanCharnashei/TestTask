@@ -1,0 +1,39 @@
+<mat-card class="registration-card" appearance="outlined">
+    <mat-card-header>
+        <mat-card-title>Step 1</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form class="registration-card_form" [formGroup]="form" (ngSubmit)="onSubmit()">
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>Login</mat-label>
+                <input name="login" formControlName="login" type="text" placeholder="Login" matInput>
+                @if (form.controls.login.hasError('required')) {
+                    <mat-error>This field is required</mat-error>
+                }
+            </mat-form-field>
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>Password</mat-label>
+                <input name="password" formControlName="password" type="password" placeholder="Password" matInput>
+                @if (form.controls.login.hasError('required')) {
+                    <mat-error>This field is required</mat-error>
+                }
+            </mat-form-field>
+            <mat-form-field appearance="outline" floatLabel="always">
+                <mat-label>Confirm password</mat-label>
+                <input name="confirmPassword" formControlName="confirmPassword" type="password" placeholder="Confirm password" matInput>
+                @if (form.controls.login.hasError('required')) {
+                    <mat-error>This field is required</mat-error>
+                }
+                @if (form.hasError('passwordMismatch')) {
+                    <mat-error>Confirmation is mandatory</mat-error>
+                }
+            </mat-form-field>
+            <mat-checkbox class="example-margin" formControlName="agree">
+                For a long time
+            </mat-checkbox>
+            <mat-card-actions align="end">
+                <button mat-stroked-button type="submit" [disabled]="!form.valid">Go to step 2</button>
+            </mat-card-actions>
+        </form>
+    </mat-card-content>
+</mat-card>
